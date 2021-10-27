@@ -1,0 +1,28 @@
+input,
+textarea {
+    user-select: text;
+    background: none;
+}
+
+label {
+    width: 100%;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    min-width: 100%;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+    > span:first-child {
+        color: var(--pending);
+    }
+
+    &.error {
+        color: var(--error);
+    }
+}
+
+#placeos {
+    .svg-viewer__label {
+        min-width: 12rem;
+    }
+}
